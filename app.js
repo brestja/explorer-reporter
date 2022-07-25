@@ -32,9 +32,8 @@ app.use( express.static('public') );
 //         titulo: 'Curso de Node'
 //     });
 // });
-
 app.get('*', (req, res) => {
-    res.sendFile( __dirname + '/public/App Explorer Report  22-07-2022.html');
+    res.sendFile( __dirname + '/public/App Explorer Report  25-07-2022.html');
 });
  
 app.listen(port, () => {
