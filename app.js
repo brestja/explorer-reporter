@@ -33,7 +33,7 @@ app.use( express.static('public') );
 //     });
 // });
 app.get('*', (req, res) => {
-    res.sendFile( __dirname + '/public/App Explorer Report  25-07-2022.html');
+    res.sendFile( __dirname + '/public/index.html');
 });
  
 app.listen(port, () => {
